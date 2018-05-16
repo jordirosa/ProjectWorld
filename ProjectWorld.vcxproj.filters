@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\img">
+      <UniqueIdentifier>{36f543a9-d79b-4c1f-a99c-da393a179213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{3a21bc56-69e2-43e2-99fd-7ceaaf4a7709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDLEngine">
+      <UniqueIdentifier>{0371d1bb-02ba-4ae9-ae4a-48e860e1a837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDLEngine">
+      <UniqueIdentifier>{98d2c358-1614-4859-a979-b0d6af67671b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{23c68547-d9d4-4efc-9e09-5095d199003d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img\character">
+      <UniqueIdentifier>{fbe1e520-2079-422e-8185-7dffc310894e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\data">
+      <UniqueIdentifier>{3851c389-33d4-4a0e-9ad8-09a6d4d02704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img\equip">
+      <UniqueIdentifier>{4a551512-3f82-4940-ad87-4d4866ae99c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\data\character">
+      <UniqueIdentifier>{6b7dd650-8477-499b-9ae0-87a17bde997c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\data\equip">
+      <UniqueIdentifier>{9879ef6c-8839-457f-8556-b7827e94a790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\font">
+      <UniqueIdentifier>{e090ec3f-c5d4-4714-ad18-3be1b94015c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens">
+      <UniqueIdentifier>{aaf7be4f-c51c-4bbc-81ab-63a9974d42ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{4c51d33f-a8a2-4a16-9deb-09f681e2ced2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img\map">
+      <UniqueIdentifier>{1ccbd63e-8585-459c-bf50-2c1b397e4075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\data\map">
+      <UniqueIdentifier>{b711addf-3b04-41b7-abe4-d6c9b3e4db06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\PWCharacter.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWCompass.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWEquipment.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWEquipment1HSword.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWEquipmentArmor.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWEquipmentChest.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWEquipmentFeet.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWEquipmentHead.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWEquipmentLegs.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWEquipmentShoulders.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWEquipmentWeapon.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWGlobal.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWItem.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWMap.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWInventoryScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWScreenCharacterSelection.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWScreenPlay.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDLApp.cpp">
+      <Filter>Source Files\SDLEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDLGraphics.cpp">
+      <Filter>Source Files\SDLEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDLImage.cpp">
+      <Filter>Source Files\SDLEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDLScreen.cpp">
+      <Filter>Source Files\SDLEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDLText.cpp">
+      <Filter>Source Files\SDLEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PWApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\PWCharacter.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWCompass.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWConstants.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWEquipment.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWEquipment1HSword.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWEquipmentArmor.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWEquipmentChest.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWEquipmentFeet.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWEquipmentHead.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWEquipmentLegs.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWEquipmentShoulders.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWEquipmentWeapon.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWGlobal.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWItem.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWMap.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWInventoryScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWScreenCharacterSelection.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWScreenPlay.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDLApp.h">
+      <Filter>Header Files\SDLEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDLGraphics.h">
+      <Filter>Header Files\SDLEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDLImage.h">
+      <Filter>Header Files\SDLEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDLScreen.h">
+      <Filter>Header Files\SDLEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDLText.h">
+      <Filter>Header Files\SDLEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PWCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDLEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\map\GrayStoneWall.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_BC.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_BF.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_E_M_L1.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_E_N_L1.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_E_N_L2.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_E_X_L1.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_S_F_C.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_S_M_C.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_S_M_L1.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_S_M_R1.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_S_N_C.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_S_N_L1.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_S_N_R1.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_W_M_R1.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_W_N_R1.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_W_N_R2.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\map\GrayStoneWall_W_X_R1.png">
+      <Filter>Resource Files\img\map</Filter>
+    </Image>
+    <Image Include="img\equip\Goblin_Chest_0000000001.png">
+      <Filter>Resource Files\img\equip</Filter>
+    </Image>
+    <Image Include="img\equip\Goblin_Feet_0000000001.png">
+      <Filter>Resource Files\img\equip</Filter>
+    </Image>
+    <Image Include="img\equip\Goblin_Head_0000000001.png">
+      <Filter>Resource Files\img\equip</Filter>
+    </Image>
+    <Image Include="img\equip\Goblin_Legs_0000000001.png">
+      <Filter>Resource Files\img\equip</Filter>
+    </Image>
+    <Image Include="img\equip\Goblin_Shoulders_0000000001.png">
+      <Filter>Resource Files\img\equip</Filter>
+    </Image>
+    <Image Include="img\character\Goblin_Arm_L.png">
+      <Filter>Resource Files\img\character</Filter>
+    </Image>
+    <Image Include="img\character\Goblin_Arm_LE.png">
+      <Filter>Resource Files\img\character</Filter>
+    </Image>
+    <Image Include="img\character\Goblin_Arm_R.png">
+      <Filter>Resource Files\img\character</Filter>
+    </Image>
+    <Image Include="img\character\Goblin_Arm_RE.png">
+      <Filter>Resource Files\img\character</Filter>
+    </Image>
+    <Image Include="img\character\Goblin_Body.png">
+      <Filter>Resource Files\img\character</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\equip\Legs_0000000001">
+      <Filter>Resource Files\data\equip</Filter>
+    </None>
+    <None Include="font\app850.fon">
+      <Filter>Resource Files\font</Filter>
+    </None>
+    <None Include="data\equip\Feet_0000000001">
+      <Filter>Resource Files\data\equip</Filter>
+    </None>
+    <None Include="data\equip\Chest_0000000001">
+      <Filter>Resource Files\data\equip</Filter>
+    </None>
+    <None Include="data\equip\Shoulders_0000000001">
+      <Filter>Resource Files\data\equip</Filter>
+    </None>
+    <None Include="data\equip\Head_0000000001">
+      <Filter>Resource Files\data\equip</Filter>
+    </None>
+    <None Include="data\map\testmap">
+      <Filter>Resource Files\data\map</Filter>
+    </None>
+    <None Include="data\character\Goblin">
+      <Filter>Resource Files\data\character</Filter>
+    </None>
+  </ItemGroup>
+</Project>
