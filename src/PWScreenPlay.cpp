@@ -62,8 +62,8 @@ void PWScreenPlay::draw()
 	this->mMap->draw(this->mPosX, this->mPosY, this->mDirection);
 //*******************************************************************
 	PWCharacter *character = new PWCharacter(this->mApp->getGraphics(), PWConstants::CHARACTER_ASSET_GOBLIN);
-	character->setPosition(4, 8);
-	character->setScale(0.5f);
+	character->setPosition(0, 0);
+	character->setScale(1.0f);
 	character->setLegsEquipment(new PWEquipmentLegs(this->mApp->getGraphics(), "0000000001"));
 	character->setFeetEquipment(new PWEquipmentFeet(this->mApp->getGraphics(), "0000000001"));
 	character->setChestEquipment(new PWEquipmentChest(this->mApp->getGraphics(), "0000000001"));

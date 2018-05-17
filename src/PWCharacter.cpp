@@ -19,6 +19,9 @@ void PWCharacter::getClassNameByID(int id, char* name)
 {
 	switch (id)
 	{
+		case PWConstants::CLASS_ENEMY_ID:
+			strcpy(name, PWConstants::CLASS_ENEMY_NAME);
+			break;
 		case PWConstants::CLASS_WARRIOR_ID:
 			strcpy(name, PWConstants::CLASS_WARRIOR_NAME);
 			break;
@@ -33,7 +36,11 @@ void PWCharacter::getClassNameByID(int id, char* name)
 
 int PWCharacter::getClassIDByName(const char* name)
 {
-	if (strcmp(name, PWConstants::CLASS_WARRIOR_NAME) == 0)
+	if (strcmp(name, PWConstants::CLASS_ENEMY_NAME) == 0)
+	{
+		return PWConstants::CLASS_ENEMY_ID;
+	}
+	else if (strcmp(name, PWConstants::CLASS_WARRIOR_NAME) == 0)
 	{
 		return PWConstants::CLASS_WARRIOR_ID;
 	}
@@ -68,6 +75,9 @@ PWCharacter::PWCharacter(SDLGraphics* graphics, const char* assetName)
 	{
 		std::getline(assetFile, line);
 		strcpy(this->mName, line.c_str());
+
+		std::getline(assetFile, line);
+		this->mClassID = atoi(line.c_str());
 
 		std::getline(assetFile, line);
 		this->mXLeftArm = atoi(line.c_str());

@@ -3,10 +3,12 @@ namespace PWConstants
 {
 	static const int NUM_CLASSES = 3;
 
+	static const int CLASS_ENEMY_ID = -1;
 	static const int CLASS_WARRIOR_ID = 0;
 	static const int CLASS_ROGUE_ID = 1;
 	static const int CLASS_WIZARD_ID = 2;
 
+	static const char* CLASS_ENEMY_NAME = "Enemy";
 	static const char* CLASS_WARRIOR_NAME = "Warrior";
 	static const char* CLASS_ROGUE_NAME = "Rogue";
 	static const char* CLASS_WIZARD_NAME = "Wizard";

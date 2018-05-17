@@ -32,6 +32,8 @@ private:
 	char mAssetName[11];
 	char mName[51];
 
+	int mClassID;
+
 	bool mLeftArmEquiped;
 	bool mRightArmEquiped;
 
